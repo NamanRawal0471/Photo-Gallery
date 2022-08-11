@@ -9,6 +9,9 @@ body {
     font-size: 10px;
 
 }
+.text{
+    font-family: zzubuntu';
+}
 #images{
     display: flex;
     flex-wrap: wrap;
@@ -464,4 +467,5 @@ transition: all 0.3s ease;
     padding: 0;
     background-color: #111;
 }
+
 
