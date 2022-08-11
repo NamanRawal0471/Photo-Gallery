@@ -9,6 +9,10 @@ body {
     font-size: 10px;
 
 }
+#images{
+    display: flex;
+    flex-wrap: wrap;
+}
 .Outer{
     border: #111;
 }
