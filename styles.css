@@ -4,12 +4,30 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 62.5%;
     font-size: 10px;
 
 }
-
+footer {
+    font-family: "Poppins", sans-serif;
+  }
+  footer {
+    background: #111;
+    padding: 10px 16px;
+    color: #888c8d;
+    text-align: center;
+    font-size: larger;
+  }
+  
+  footer span a {
+    color: #1e3551;
+    text-decoration: none;
+  }
+  
+  footer span a:hover {
+    text-decoration: underline;
+  }
 /* Navbar section */
 
 .nav {
