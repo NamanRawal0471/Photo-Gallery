@@ -9,25 +9,47 @@ body {
     font-size: 10px;
 
 }
-.text{
-    font-family: zzubuntu';
-}
 #images{
     display: flex;
     flex-wrap: wrap;
 }
-
-.about .about-content{
+.Outer{
+    border: #111;
+}
+.catalogue1{
+display: flex;
+flex-direction: row;
+}
+.catalogue2{
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: row;
+
+}
+.about,
+.services,
+.skills,
+.projects,
+.contact,
+footer {
+  font-family: "Poppins", sans-serif;
 }
 
-.about {
+.about .about-content,
+.services .serv-content,
+.skills .skills-content,
+.contact .contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+ /* ------------------------------ About ------------------------------ */
+  
+ .about {
     background: radial-gradient(#e1efff, white);
   }
   .about .title::after {
+    content: "—Who I Am ?—";
     text-overflow: ellipsis;
     display: -webkit-inline-box;
     -webkit-line-clamp: 3;
@@ -85,20 +107,6 @@ body {
     background: none;
     animation: pulsate 1s ease-in-out;
   }
-#Outer{
-    border: #111;
-}
-
-
-.catalogue1{
-display: flex;
-flex-direction: row;
-}
-.catalogue2{
-    display: flex;
-    flex-direction: row;
-
-}
 .album{
     margin: auto;
     height: 300px;
@@ -106,7 +114,7 @@ flex-direction: row;
 }
 .album:hover{
     border: 4px solid goldenrod;
-    height:350px;
+    height:400px;
     width: 600px;
 }
 footer {
@@ -467,5 +475,4 @@ transition: all 0.3s ease;
     padding: 0;
     background-color: #111;
 }
-
 
